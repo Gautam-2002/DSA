@@ -124,11 +124,13 @@ int main()
     takeInput(root);
     cout << "Printing BST (Level Order):" << endl;
     levelOrderTraversal(root);
-    cout <<"Printing BST (Pre Order):" << endl;
+    cout << "Printing BST (Pre Order):" << endl;
     preorder(root);
-    cout<< endl << "Printing BST (In Order):" << endl;
+    cout << endl
+         << "Printing BST (In Order):" << endl;
     inorder(root);
-    cout<< endl << "Printing BST (Post Order):" << endl;
+    cout << endl
+         << "Printing BST (Post Order):" << endl;
     postorder(root);
     return 0;
 }
